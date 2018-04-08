@@ -6,10 +6,7 @@ CMAIN:
 
     xor ecx,ecx 
     and ecx,eax
-    mov ecx,10000
-    l:
-    inc eax
-    loop l
+    add ecx,10000
     ;write your code here
     xor eax, eax
     ret
